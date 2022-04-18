@@ -1,3 +1,6 @@
+# Bacon Bits Video
+* https://youtu.be/uZFDqIbZJkc
+
 # Required Files
 * Bginfo_script.ps1
 * Bginfo_state.sls
