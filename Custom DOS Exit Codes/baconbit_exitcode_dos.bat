@@ -1,7 +1,7 @@
 @echo off
 
 echo ========== NOTES ==========
-echo == BaconBits: Custom DOS Exit Codes
+echo == BaconBits: Script Control w/ Exit Codes
 echo == This is example code that shows how to use custom exit codes in DOS to set Bacon job returns to SUCCESS or FAILED
 echo == Learn more here: https://ss64.com/nt/exit.html
 echo ===========================
@@ -15,7 +15,7 @@ set curdir=%cd%
 set hellobat=%curdir%\HelloWorld.bat
 set hellotxt=%curdir%\HelloWorld.txt
 set badtxt=%curdir%\HelloHelloWorld.txt
-set /A errlevel=
+set /A errlevel=0
 
 echo MAKING A FILE
 echo echo Hello World ^> %hellotxt% > %hellobat% 
@@ -25,6 +25,7 @@ if %ERRORLEVEL% EQU 0 (
 	echo ERROR: failed creating %hellobat% 1>&2
 	set errlevel=100
 )
+
 
 echo CHECKING FILES
 set errorlevel=0
@@ -40,15 +41,14 @@ echo RUN FILE
 set errorlevel=0
 call %hellobat% &
 if %ERRORLEVEL% EQU 0 (
-	echo Running %hellotxt% worked.
+	echo Running %hellobat% worked.
 ) else (
 	echo ERROR: could not run %hellobat% 1>&2
 	set errlevel=300
 )
 
 
-
-echo CHECK BAD FILE
+echo CHECK TXT FILE
 set errorlevel=0
 if exist %hellotxt% (
 	echo %hellotxt% exists!
@@ -58,7 +58,7 @@ if exist %hellotxt% (
 )
 
 
-echo CHECK TXT FILE
+echo CHECK BAD FILE
 set errorlevel=0
 if exist %badtxt% (
 	echo %badtxt% exists!
@@ -67,7 +67,7 @@ if exist %badtxt% (
 	set errlevel=500
 )
 
-if errlevel gtr 1 ( 
+if %errlevel% gtr 1 ( 
 	goto ending
 ) else ( 
 	echo SUCCESS
