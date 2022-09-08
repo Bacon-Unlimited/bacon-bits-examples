@@ -48,6 +48,9 @@
 		<key>PayloadDescription</key>
 		<string>Finder Settings to be hosted on Bacon Unlimited GitHub
 https://github.com/Bacon-Unlimited/apple-mdm-profiles/blob/main/Finder/BaconBit-Finder-Settings.mobileconfig
+https://github.com/Bacon-Unlimited/bacon-bits-examples/tree/main/Creating%20an%20MDM%20Profile
+
+Changes
 - Open folders in finder tabs instead of new windows
 - Show internal drives, and connected servers, on desktop
 - New Finder window shows "Volume"
@@ -65,7 +68,7 @@ https://github.com/Bacon-Unlimited/apple-mdm-profiles/blob/main/Finder/BaconBit-
 		<key>PayloadType</key>
 		<string>Configuration</string>
 		<key>PayloadUUID</key>
-		<string>fdfe6642-11ee-48c6-bdc6-fc39e871209b</string>
+		<string>4efca712-f10d-4c92-9827-b8975fc5d87d</string>
 		<key>PayloadVersion</key>
 		<integer>1</integer>
 		<key>TargetDeviceType</key>
