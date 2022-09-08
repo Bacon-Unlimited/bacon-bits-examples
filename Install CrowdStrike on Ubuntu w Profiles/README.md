@@ -1,5 +1,5 @@
 # Install CrowdStrike on Ubuntu w/ Profiles
-* https://youtu.be/1kWunJnpVEw
+* https://youtu.be/bQQeY-90AsI?t=157
 
 ## Purpose
 Use a single state file to install CrowdStrike onto an Ubuntu machine

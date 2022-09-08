@@ -35,6 +35,7 @@ install_crowdstrike:
 # Activate CrowdStrike with the CID key
 set_crowdstrike_cid:
   cmd.run:
+    # In the next line we're using the return of the `cat` function to supply the CID value directly to the activation step
     - name: sudo /opt/CrowdStrike/falconctl -s --cid=$(cat/tmp/bacon/installs/cscid.txt)
     - onchanges:
       - install_crowdstrike
