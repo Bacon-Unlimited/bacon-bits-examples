@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>FinderSpawnTab</key>
+				<true />
+				<key>FXDefaultSearchScope</key>
+				<string>SCev</string>
+				<key>NewWindowTarget</key>
+				<string>PfVo</string>
+				<key>NewWindowTargetPath</key>
+				<string>file:///</string>
+				<key>PayloadDisplayName</key>
+				<string>Finder</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.finder.152dee66-14ae-49dd-9ded-1871a44ceb08</string>
+				<key>PayloadType</key>
+				<string>com.apple.finder</string>
+				<key>PayloadUUID</key>
+				<string>ec90a99e-2424-4619-84cb-c877c40a2841</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>ShowHardDrivesOnDesktop</key>
+				<true />
+				<key>ShowMountedServersOnDesktop</key>
+				<true />
+			</dict>
+			<dict>
+				<key>AppleShowAllExtensions</key>
+				<true />
+				<key>AppleShowScrollBars</key>
+				<string>Always</string>
+				<key>PayloadDisplayName</key>
+				<string>Global Preferences</string>
+				<key>PayloadIdentifier</key>
+				<string>.GlobalPreferences.c88cbb14-8a53-4e6d-b803-3886440c3fce</string>
+				<key>PayloadType</key>
+				<string>.GlobalPreferences</string>
+				<key>PayloadUUID</key>
+				<string>18fc242b-517f-4e3f-bf6c-b2de769020c3</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Finder Settings to be hosted on Bacon Unlimited GitHub
+https://github.com/Bacon-Unlimited/apple-mdm-profiles/blob/main/Finder/BaconBit-Finder-Settings.mobileconfig
+- Open folders in finder tabs instead of new windows
+- Show internal drives, and connected servers, on desktop
+- New Finder window shows "Volume"
+- Finder opens Volume at: file:/// (root)
+- Open Folders in Finder tabs instead of new windows
+- When performing a search: "Search this Mac" instead of: current folder or last search scope
+- Always show scroll bars on windows
+- Show all filename extensions</string>
+		<key>PayloadDisplayName</key>
+		<string>BaconBit-Finder-Settings</string>
+		<key>PayloadIdentifier</key>
+		<string>Bacon-Unlimited.20220907-68a1-4a0e-89a3-9fae14894ec6</string>
+		<key>PayloadOrganization</key>
+		<string>Bacon Unlimited Flavor Force</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>fdfe6642-11ee-48c6-bdc6-fc39e871209b</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>5</integer>
+	</dict>
+</plist>
